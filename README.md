@@ -7,7 +7,7 @@
 
 ---
 
-# CITAR ESTE PAQUETE COMO:
+# Citar este paquete como:
 
 Mandujano, S. 2019. Índice de abundancia relativa: RAI. Pp. 131-144, in: S. Mandujano & L. A. Pérez-Solano (eds.), Foto-trampeo en R: Organización y análisis de datos, Volumen I. Instituto de Ecología A. C., Xalapa, Ver., México. 243pp. ISBN: 978-607-7579-90-8.
 
@@ -41,7 +41,7 @@ if(length(pkgs_miss)>0L)
 
 ---
 
-# IMPORTANTE: 
+# Importante: 
 
 El paquete automáticamente guardar las tablas de resultados, gráficos y mapas. Si prefiere primero visualizar se debe desactivar "guardar tablas y figuras" empleando el simbolo "#" en el script RAI_eR_Beta.R
 
