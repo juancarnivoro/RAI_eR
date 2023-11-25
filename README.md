@@ -9,10 +9,12 @@
 ---
 
 # Taller de FototrampeoR
-# Versión Beta del Paquete RAI_eR_Beta.R 
-# Objetivo: Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa
-# Elaborado por: SMandujanoR
-# Última modificación: Octubre 30, 2023
+
+- Versión Beta: **Paquete RAI_eR_Beta.R**
+- Objetivo: **Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa**
+- Elaborado por: **SMandujanoR**
+ <img align="rigth" src="extras/f_6.jpg" alt="drawing" width="1500"/>
+- Última modificación: **Octubre 30, 2023**
 
 ---
 
@@ -39,19 +41,21 @@
 
 ---
 
-# 4. Material (códigos R y datos) del libro: https://smandujanor.github.io/Foto-trampeo-R-Vol_I
+**4. Material (códigos R y datos) del libro: https://smandujanor.github.io/Foto-trampeo-R-Vol_I** 
 
 ---
 
-# 5. Si se empleo camtrapR para etiquetar, organizar y generar la data.frame, se sugiere consultar la siguiente viñeta para preparar la data.frame que requiere el paquete RAI_eR en: https://rpubs.com/SMR8810/IAR_datos
+**5. Si se empleo camtrapR para etiquetar, organizar y generar la data.frame, se sugiere consultar la siguiente viñeta para preparar la data.frame que requiere el paquete RAI_eR en: https://rpubs.com/SMR8810/IAR_datos** 
 
 ---
 
-# 6. Para más detalles de cómo usar la función para crear una grid de camáras consultar la viñeta en: https://rpubs.com/SMR8810/Grid_camaras
+**6. Para más detalles de cómo usar la función para crear una grid de camáras consultar la viñeta en: https://rpubs.com/SMR8810/Grid_camaras**
 
 ---
 
-# 7. IMPORTANTE: El paquete automáticamente guardar las tablas de resultados, gráficos y mapas. Si prefiere primero visualizar se debe desactivar "guardar tablas y figuras" empleando el simbolo "#" en el script RAI_eR_Beta.R
+# IMPORTANTE: 
+
+El paquete automáticamente guardar las tablas de resultados, gráficos y mapas. Si prefiere primero visualizar se debe desactivar "guardar tablas y figuras" empleando el simbolo "#" en el script RAI_eR_Beta.R
 
 ---
 
