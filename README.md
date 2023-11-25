@@ -48,7 +48,6 @@ El paquete automáticamente guardar las tablas de resultados, gráficos y mapas.
 
 ---
 
-################################################
 # Previamente instalar los paquetes:
 
 paquetes <- c("agricolae", "MASS", "maptools", "raster", "RColorBrewer", "stringr", "xtable", "akima", "prettymapr", "GISTools", "leaflet")
@@ -61,4 +60,14 @@ if(length(pkgs_miss)>0L)
   repos = "https://cloud.r-project.org/", 
   dependencies = TRUE)
 
-################################################
+---
+
+# Para clonar el paquete desde GitHUb:
+
+<img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
+
+<img align="rigth" src="extras/f_2.jpg" alt="drawing" width="1500"/>
+
+---
+
+
