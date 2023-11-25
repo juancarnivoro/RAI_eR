@@ -23,8 +23,16 @@ if(length(pkgs_miss)>0L)
 
 # Para clonar el paquete desde GitHUb:
 
+- Paso 1: entrar a la liga
+
+<https://github.com/SMandujanoR/RAI_eR_Beta>
+
+- Paso 2:
+  
 <img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
+- Paso 3:
+  
 <img align="rigth" src="extras/f_2.jpg" alt="drawing" width="500"/>
 
 ---
