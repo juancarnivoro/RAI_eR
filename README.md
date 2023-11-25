@@ -2,7 +2,7 @@
 
 # Taller de FototrampeoR
 
-<img align="rigth" src="extras/banner.jpg" alt="drawing" width="1000"/>
+<img align="rigth" src="extras/banner" alt="drawing" width="1000"/>
 
 ---
 
