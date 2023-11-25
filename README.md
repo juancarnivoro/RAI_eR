@@ -7,6 +7,12 @@
 
 ---
 
+# CITAR ESTE PAQUETE COMO:
+
+**Mandujano, S. 2019. Índice de abundancia relativa: RAI. Pp. 131-144, in: S. Mandujano & L. A. Pérez-Solano (eds.), Foto-trampeo en R: Organización y análisis de datos, Volumen I. Instituto de Ecología A. C., Xalapa, Ver., México. 243pp. ISBN: 978-607-7579-90-8.**
+
+---
+
 # Previamente instalar los paquetes:
 
 paquetes <- c("agricolae", "MASS", "maptools", "raster", "RColorBrewer", "stringr", "xtable", "akima", "prettymapr", "GISTools", "leaflet")
@@ -48,40 +54,43 @@ El paquete automáticamente guardar las tablas de resultados, gráficos y mapas.
 
 **1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible**
 
-<img align="rigth" src="extras/f_4.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_4.jpg" alt="drawing" width="1000"/>
 
 ---
 
 **2. Página del libro "FototrampeoR: Organización y análisis de datos, Volumen 1" en: https://smandujanor.github.io/Foto-trampeo-R-Vol_I**
 
-<img align="rigth" src="extras/f_6.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_6.jpg" alt="drawing" width="1000"/>
 
 ---
 
 **3. PDF del libro en: https://www.researchgate.net/publication/348922971_Fototrampeo_en_R_Organizacion_y_Analisis_de_Datos_Volumen_I**
 
-<img align="rigth" src="extras/f_7.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_7.jpg" alt="drawing" width="1000"/>
 
 ---
 
 **4. Material (códigos R y datos) del libro: https://smandujanor.github.io/Foto-trampeo-R-Vol_I** 
 
-<img align="rigth" src="extras/f_8.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_8.jpg" alt="drawing" width="1000"/>
 
 ---
 
 **5. Si se empleo camtrapR para etiquetar, organizar y generar la data.frame, se sugiere consultar la siguiente viñeta para preparar la data.frame que requiere el paquete RAI_eR en: https://rpubs.com/SMR8810/IAR_datos** 
 
-<img align="rigth" src="extras/f_5.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_5.jpg" alt="drawing" width="1000"/>
 
 ---
 
 **6. Para más detalles de cómo usar la función para crear una grid de camáras consultar la viñeta en: https://rpubs.com/SMR8810/Grid_camaras**
 
-<img align="rigth" src="extras/f_3.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_3.jpg" alt="drawing" width="1000"/>
 
 ---
 
+# CITAR ESTE PAQUETE COMO:
+
+**Mandujano, S. 2019. Índice de abundancia relativa: RAI. Pp. 131-144, in: S. Mandujano & L. A. Pérez-Solano (eds.), Foto-trampeo en R: Organización y análisis de datos, Volumen I. Instituto de Ecología A. C., Xalapa, Ver., México. 243pp. ISBN: 978-607-7579-90-8.**
 
 
 
