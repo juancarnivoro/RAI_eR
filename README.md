@@ -1,19 +1,8 @@
-# Salvador Mandujano Rodríguez
-
- <https://www.researchgate.net/profile/Salvador_Mandujano>
-
-- Semana del 28 de Septiembre al 2 de Octubre del 2020.
-
-- Horario 10:00 a 14:00 h.
-
----
-
 # Taller de FototrampeoR
 
 - Versión Beta: **Paquete RAI_eR_Beta.R**
 - Objetivo: **Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa**
-- Elaborado por: **SMandujanoR**
- <img align="rigth" src="extras/f_6.jpg" alt="drawing" width="1500"/>
+- Elaborado por: **SMandujanoR**  <https://www.researchgate.net/profile/Salvador_Mandujano>
 - Última modificación: **Octubre 30, 2023**
 
 ---
