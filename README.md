@@ -1,16 +1,33 @@
-################################################
+# Salvador Mandujano Rodríguez
+
+ <https://www.researchgate.net/profile/Salvador_Mandujano>
+
+- Semana del 28 de Septiembre al 2 de Octubre del 2020.
+
+- Horario 10:00 a 14:00 h.
+
+---
+
 # Taller de FototrampeoR
 # Versión Beta del Paquete RAI_eR_Beta.R 
 # Objetivo: Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa
 # Elaborado por: SMandujanoR
 # Última modificación: Octubre 30, 2023
-################################################
+
+---
+
 
 # MATERIAL COMPLEMENTARIO PARA CONSULTAR Y FACILITAR EL EMPLEO DEL PAQUETE:
 
-# 1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible
+1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible
 
-# 2. Página del libro "FototrampeoR: Organización y análisis de datos, Volumen 1" en: https://smandujanor.github.io/Foto-trampeo-R-Vol_I
+<img align="rigth" src="extras/Figura 3.JPG" alt="drawing" width="500"/>
+
+---
+
+2. Página del libro "FototrampeoR: Organización y análisis de datos, Volumen 1" en: https://smandujanor.github.io/Foto-trampeo-R-Vol_I
+
+---
 
 # 3. PDF del libro en: https://www.researchgate.net/publication/348922971_Fototrampeo_en_R_Organizacion_y_Analisis_de_Datos_Volumen_I
 
