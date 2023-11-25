@@ -82,7 +82,11 @@ map <- spTransform(map, proje)
 # OJO: Craer paleta de colores para cada tipo de vegetación(o cualquier otras clasificación. O emplear los colores de R (eg., topo.colors, heat.colors, u otro):
 my_colors <- c("gold", "deepskyblue2", "darkolivegreen4", "darkolivegreen1", "azure3", "darkorange2")
 
-# Función:
+dev.off()
+
+##################################################
+# Función para ver CTs en el shape del área de estudio
+
 Map_CTs(map, my_colors)
 
 ##################################################
