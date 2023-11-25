@@ -12,7 +12,7 @@
 
 ---
 
-1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible
+**1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible**
 
 <img align="rigth" src="extras/f_4.jpg" alt="drawing" width="1500"/>
 
@@ -32,13 +32,19 @@
 
 **4. Material (códigos R y datos) del libro: https://smandujanor.github.io/Foto-trampeo-R-Vol_I** 
 
+<img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
+
 ---
 
 **5. Si se empleo camtrapR para etiquetar, organizar y generar la data.frame, se sugiere consultar la siguiente viñeta para preparar la data.frame que requiere el paquete RAI_eR en: https://rpubs.com/SMR8810/IAR_datos** 
 
+<img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
+
 ---
 
 **6. Para más detalles de cómo usar la función para crear una grid de camáras consultar la viñeta en: https://rpubs.com/SMR8810/Grid_camaras**
+
+<img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
 ---
 
@@ -66,7 +72,7 @@ if(length(pkgs_miss)>0L)
 
 <img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
-<img align="rigth" src="extras/f_2.jpg" alt="drawing" width="1500"/>
+<img align="rigth" src="extras/f_2.jpg" alt="drawing" width="1000"/>
 
 ---
 
