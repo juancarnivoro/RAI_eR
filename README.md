@@ -21,17 +21,15 @@ if(length(pkgs_miss)>0L)
 
 ---
 
-# Para clonar el paquete desde GitHUb:
+# Para clonar el paquete desde GitHub:
 
-- Paso 1: entrar a la liga
+- Paso 1: entrar a la liga <https://github.com/SMandujanoR/RAI_eR_Beta>
 
-<https://github.com/SMandujanoR/RAI_eR_Beta>
-
-- Paso 2:
+- Paso 2: Ir a la pestaña verde de Code
   
 <img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
-- Paso 3:
+- Paso 3: Bajar el ZIP o bien a través de GitHub Desk
   
 <img align="rigth" src="extras/f_2.jpg" alt="drawing" width="500"/>
 
