@@ -55,7 +55,7 @@ El paquete automáticamente guardar las tablas de resultados, gráficos y mapas.
 ---
 
 
-# MATERIAL COMPLEMENTARIO PARA CONSULTAR Y FACILITAR EL EMPLEO DEL PAQUETE:
+# Material complementario para consultar el empleo del paquete y otros detalles
 
 ---
 
