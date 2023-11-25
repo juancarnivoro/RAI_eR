@@ -1,4 +1,10 @@
+---
+
 # Taller de FototrampeoR
+
+<img align="rigth" src="extras/banner.jpg" alt="drawing" width="1000"/>
+
+---
 
 - Versión Beta: **Paquete RAI_eR_Beta.R**
 - Objetivo: **Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa**
