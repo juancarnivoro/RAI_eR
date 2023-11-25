@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1700177921870.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "786206740",
+    "id" : "18576B7E",
+    "lastKnownWriteTime" : 1700179863,
+    "last_content_update" : 1700179863503,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/RAI_eR/Taller FTR/RAI_eR_Beta.R",
+    "project_path" : "RAI_eR_Beta.R",
+    "properties" : {
+        "cursorPosition" : "457,0",
+        "scrollLine" : "457"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

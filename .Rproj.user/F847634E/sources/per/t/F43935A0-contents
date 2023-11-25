@@ -1,0 +1,66 @@
+################################################
+# ANÁLISIS DATOS DE CÁMARAS CON Y SIN CHIVOS
+################################################
+
+# RAI versión funciones individuales
+
+source("pkgRAI_2.R")
+
+wildlife.data <- read.csv("AZ_mamiferos.csv", header = T)
+View(wildlife.data)
+head(wildlife.data, 20)
+tail(wildlife.data)
+names(wildlife.data)
+class(wildlife.data)
+length(wildlife.data$Species)
+unique(wildlife.data$Species)
+
+habitat.data <- read.csv("AZ_habitat.csv", header = T)
+View(habitat.data)
+
+datos <- merge(x = wildlife.data, y = habitat.data, by = "Camera", all = TRUE)
+View(datos)
+
+
+
+##################################
+# Inicia proceso
+
+RAIgral(datos) 
+
+Dist_spp(datos, c("Syl_flo"), parRow = 1, parCol = 1, pointSize = .5) 
+
+RAIalt(datos, 10) 
+
+#RAI_sp(species = "Odo_vir", site = "San_Pedro_Chico", season = "Dry", year = NULL)
+
+RAIglm(datos)
+
+RAIglmCov("Odo_vir", cov1 = "Goats")
+
+RAIinterp(datos)
+
+RAIfinal(datos)
+
+###################################
+# versión una función
+
+source("pkgRAI_1.R")
+
+wildlife.data <- read.csv("AZ_mamiferos.csv", header = T)
+#View(wildlife.data)
+
+habitat.data <- read.csv("AZ_habitat.csv", header = T)
+#View(habitat.data)
+
+especie <- c("Odo_vir", "Syl_flo", "Can_lat", "Lyn_ruf") 
+RAI()
+
+rm(list = ls()) 
+dev.off() 
+
+
+########################################################
+# FIN SCRIPT
+rm(list = ls()) 
+dev.off() 

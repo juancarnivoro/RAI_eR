@@ -1,0 +1,174 @@
+################################################
+# Paquete RAI con funciones individuales.
+# Elaborado por: SMandujanoR
+# Versión: Octubre 13, 2021
+################################################
+
+# PASO 1
+
+# Cargar el paquete RAI, pero como no está en ningún repositorio(CRAN, GitHub u otro), lo cargamos desde este mismo proyecto RStudio como:
+
+source("pkgRAI_2.R") 
+
+# Cargar estos paquetes:
+
+library(agricolae)
+library(stringr)
+library(xtable)
+library(akima)
+library(MASS)
+library(RColorBrewer)
+library(raster)
+library(prettymapr)
+library(GISTools)
+
+############################################
+# Previo al empleo de RAI se deben formatear los datos. Si se empleó el paquete camtrapR entonces seguir las instrucciones del script "dar_formato.R" y leer la viñeta para los detalles.
+
+# ----------------------
+# Para abreviar el nombre científico
+library(textclean)
+
+wildlife.data <- read.csv("mamiferos_1.csv", header = T)
+
+View(wildlife.data)
+
+
+################################################
+# Crear un subdirectorio para guardar los resultados
+
+dir.create("Resultados")
+
+############################################
+# diferentes aspectos que podemos visualizar de esta data.frame:
+
+head(wildlife.data, 10)
+tail(wildlife.data)
+names(wildlife.data)
+class(wildlife.data)
+length(wildlife.data$Species)
+unique(wildlife.data$Species)
+
+############################################
+# Leer datos de UTMs y covariables hábitat para cada cámara:
+
+habitat.data <- read.csv("habitat_1.csv", header = T)
+
+View(habitat.data)
+
+# Se integran ambos data.frames
+
+datos <- merge(x = wildlife.data, y = habitat.data, by = "Camera", all = TRUE)
+
+View(datos)
+
+################################################
+# Para visualizar el área de estudio, se carga el shape
+# OJO: si no se tiene o requiere tener un mapa, este paso se puede saltar
+
+library(raster)
+library(RColorBrewer)
+library(prettymapr)
+
+mi_mapa <- shapefile("shapes/veg.shp")
+
+summary(mi_mapa)
+class(mi_mapa)
+bbox(mi_mapa) 
+mi_mapa$tipo_Suelo
+mi_mapa <- spTransform(mi_mapa, "+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0")
+bbox(mi_mapa) 
+
+# creo la paleta de colores para cada tipo de vegetación (OJO: está paleta es alternativa, se podría emplear alguna de las ya creadas en R como el topo.colors, heat.colors, u otras). Yo prefiero elegir mis colores como:
+
+mi_paleta <- c("gold", "deepskyblue2", "darkolivegreen4", "darkolivegreen1", "azure3", "darkorange2")
+
+# Visualizo el mapa
+
+par(mfrow=c(1,1), mar = c(1,1,1,1))
+
+plot(mi_mapa, col = mi_paleta, fill = T, lty = 0)
+points(habitat.data$X, habitat.data$Y, pch = 16, cex = 1.5, col = "black")
+addscalebar(htin = 0.05, padin = c(0.05, 0.05), pos = "bottomright")
+addnortharrow()
+legend("bottomleft", mi_mapa$tipo_Suelo, col = mi_paleta, pch = 15, cex = 0.7, pt.cex = 1.5)
+
+###dev.off()
+
+##################################
+# Para cálculo del RAI "clásico"
+
+RAIgral(datos) 
+
+##################################
+# Para visualizar los registros por cámara y especie
+
+
+Dist_spp(datos, c("Syl_flo"), parRow = 1, parCol = 1, pointSize = .7) 
+
+Dist_spp(datos, c("Syl_flo", "Odo_vir", "Can_lat", "Uro_cin"), parRow = 2, parCol = 2, pointSize = .5)
+
+###Dist_spp(datos, c("Syl_flo", "Odo_vir", "Can_lat", "Uro_cin", "Mep_mac", "Pro_lot"), parRow = 2, parCol = 3, pointSize = .5)
+
+Dist_spp(datos, c("Syl_flo", "Odo_vir", "Can_lat", "Uro_cin", "Mep_mac", "Pro_lot", "Pec_taj", "Bas_ast", "Nas_nar"), parRow = 3, parCol = 3, pointSize = .5)
+
+##########################################
+# Para calcular el RAI alternativo para cada especie en cada cámara
+
+RAIalt(datos, 5) 
+
+##################################
+# Para generar un mapa de localidad de estudio con el RAI de la especie seleccionada. 
+
+# Importante: esta función sirve solo si los datos de XY de las especies están en las mismas coordenadas que el Mapa.
+
+Mapa_spp("Can_lat", pointSize = 0.85, mi_paleta)
+
+### OJO: repetir el ejemplo con otras especies
+
+###dev.off()
+
+##################################
+# Para seleccionar un subconjunto de datos (por el momento esta función está desactivada)
+
+###RAI_sp(species = "Odo_vir", site = "San_Pedro_Chico", season = "Dry", year = NULL)
+
+##################################
+# Para calcular el RAI para todas las especies pero como un modelo lineal generalizado (GLM) tipo regresión Poisson
+
+RAIglm(datos)
+
+##################################
+# Para calcular el RAI por especie en función de covariables empleando un GLM Poisson (por el momento esta función está desactivada)
+
+source("pkgRAI_2.R") 
+
+RAIglmCov("Odo_vir", cov1 = "Goats")
+
+##################################
+# Para hacer una interpolación simple
+
+RAIinterp(datos)
+
+##################################
+# Tabla final con todos los resultados
+
+RAIfinal(datos)
+
+#################################################
+# Comentarios finales: 
+
+# Actualmente estoy desarrollando otras funciones como por ejemplo, realizar ANOVAs y ANCOVAs de dos vias para analizar la relación entre el RAI y variables continuas y/o categóricas. 
+
+# Asimismo, otras funciones para analizar el RAI pero como modelos tipos GLM emleando los días como "offsets".
+
+# Además de otras funciones interesantes que en las siguientes versiones quedarán integradas en el paquete RAI desde el repositorio GitHub.
+
+# Para guardar o no las tablas de resultados y gráficos, se debe activar o desactivar la función eliminando o activando el simbolo "#", para lo cual tiene que abrir el script pkgRAI_2.R
+
+##########################################
+# FIN SCRIPT
+
+rm(list = ls()) # función para borrar la memoria
+
+dev.off() # función para borrar los gráficos
