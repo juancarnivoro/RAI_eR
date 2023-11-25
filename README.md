@@ -6,7 +6,8 @@
 
 ---
 
-- Versión Beta: **Paquete RAI_eR_Beta.R**
+# Paquete RAI_eR_Beta.R
+
 - Objetivo: **Calcular la abundancia relativa (RAI) y la tasa de encuentro (eR) con datos obtenidos con cámaras trampa**
 - Elaborado por: **SMandujanoR**  <https://www.researchgate.net/profile/Salvador_Mandujano>
 - Última modificación: **Octubre 30, 2023**
