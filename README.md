@@ -25,11 +25,11 @@ if(length(pkgs_miss)>0L)
 
 - Paso 1: entrar a la liga <https://github.com/SMandujanoR/RAI_eR_Beta>
 
-- Paso 2: Ir a la pestaña verde de Code
+- Paso 2: Ir a la pestaña verde de `Code`
   
 <img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
-- Paso 3: Bajar el ZIP o bien a través de GitHub Desk
+- Paso 3: Bajar el ZIP o bien a través de `GitHub Desktop`
   
 <img align="rigth" src="extras/f_2.jpg" alt="drawing" width="500"/>
 
