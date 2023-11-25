@@ -21,7 +21,7 @@
 
 1. Tutorial del empleo de R para datos de fototrampeo en: https://rpubs.com/SMR8810/FTR_reproducible
 
-<img align="rigth" src="extras/f_3.jpg" alt="drawing" width="500"/>
+<img align="rigth" src="extras/f_3.jpg" alt="drawing" width="1000"/>
 
 ---
 
