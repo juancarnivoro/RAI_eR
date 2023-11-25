@@ -1,7 +1,3 @@
-# RAI_eR_Beta
-
-Versión Beta del paquete RAI_eR
-
 ################################################
 # Taller de FototrampeoR
 # Paquete RAI_eR_Beta.R 
