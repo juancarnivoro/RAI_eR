@@ -29,7 +29,7 @@ if(length(pkgs_miss)>0L)
   
 <img align="rigth" src="extras/f_1.jpg" alt="drawing" width="1500"/>
 
-- Paso 3: Bajar el ZIP o bien a través de `GitHub Desktop`
+- Paso 3: Bajar el `ZIP` o bien a través de `GitHub Desktop`
   
 <img align="rigth" src="extras/f_2.jpg" alt="drawing" width="500"/>
 
