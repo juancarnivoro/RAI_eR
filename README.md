@@ -30,8 +30,9 @@
 
 # Citar este paquete como:
 
-- Mandujano, S. 2019. Índice de abundancia relativa: RAI. Pp. 131-144, in: S. Mandujano & L. A. Pérez-Solano (eds.), *Foto-trampeo en R: Organización y análisis de datos, Volumen I*. Instituto de Ecología A. C., Xalapa, Ver., México. 243pp. ISBN: 978-607-7579-90-8.
+- Mandujano, S. 2023. Paquete `RAI_eR`.  Repositorio: https://github.com/SMandujanoR/RAI_eR_Beta. Date: November 27, 2023.
 - Mandujano, S. 202x. Índice de abundancia relativa y tasa de encuentro con cámaras trampa: conceptos, limitaciones y alternativas. *Mammalogy Notes*. (Aceptado).
+- Mandujano, S. 2019. Índice de abundancia relativa: RAI. Pp. 131-144, in: S. Mandujano & L. A. Pérez-Solano (eds.), *Foto-trampeo en R: Organización y análisis de datos, Volumen I*. Instituto de Ecología A. C., Xalapa, Ver., México. 243pp. ISBN: 978-607-7579-90-8.
 
 ---
 
