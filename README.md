@@ -3,6 +3,16 @@
 # Salvador Mandujano Rodríguez
 
 <https://www.researchgate.net/profile/Salvador_Mandujano>
+
+<http://bibliotecasmr.blogspot.com>
+
+<https://rpubs.com/SMR8810>
+
+<https://github.com/SMandujanoR>
+
+<http://venadosrbtc.blogspot.com>
+
+<http://galeriasmr.blogspot.com>
   
 # Taller de FototrampeoR
 
