@@ -1,5 +1,9 @@
 ---
 
+# Salvador Mandujano Rodríguez
+
+<https://www.researchgate.net/profile/Salvador_Mandujano>
+  
 # Taller de FototrampeoR
 
 <img align="rigth" src="extras/banner.png" alt="drawing" width="1000"/>
