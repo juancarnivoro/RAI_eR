@@ -36,20 +36,6 @@
 
 ---
 
-# Previamente instalar los paquetes:
-
-paquetes <- c("agricolae", "MASS", "maptools", "raster", "RColorBrewer", "stringr", "xtable", "akima", "prettymapr", "GISTools", "leaflet")
-
-pkgs_miss <- paquetes[!(paquetes %in% 
-                          installed.packages())]
-
-if(length(pkgs_miss)>0L)
-  install.packages(pkgs_miss, 
-  repos = "https://cloud.r-project.org/", 
-  dependencies = TRUE)
-
----
-
 # Para clonar el paquete desde GitHub:
 
 - Paso 1: entrar a la liga <https://github.com/SMandujanoR/RAI_eR_Beta>
@@ -108,6 +94,20 @@ El paquete automáticamente guardar las tablas de resultados, gráficos y mapas.
 **6. Para más detalles de cómo usar la función para crear una grid de camáras consultar la viñeta en: https://rpubs.com/SMR8810/Grid_camaras**
 
 <img align="rigth" src="extras/f_3.jpg" alt="drawing" width="800"/>
+
+---
+
+# Importante: Previamente instalar los paquetes
+
+paquetes <- c("agricolae", "MASS", "maptools", "raster", "RColorBrewer", "stringr", "xtable", "akima", "prettymapr", "GISTools", "leaflet")
+
+pkgs_miss <- paquetes[!(paquetes %in% 
+                          installed.packages())]
+
+if(length(pkgs_miss)>0L)
+  install.packages(pkgs_miss, 
+  repos = "https://cloud.r-project.org/", 
+  dependencies = TRUE)
 
 ---
 
